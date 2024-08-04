@@ -9,7 +9,7 @@ const Header = () => {
     }
     return (
         <div className='grid grid-flow-col shadow-lg items-center p-2 bg-white'>
-            {/* Logo and Menu */}
+           
             <div className='cursor-pointer flex items-center col-span-1 space-x-1'>
                 <img onClick={()=>toggleMenuHandler()} className="h-8" src='https://static.vecteezy.com/system/resources/previews/021/190/402/original/hamburger-menu-filled-icon-in-transparent-background-basic-app-and-web-ui-bold-line-icon-eps10-free-vector.jpg' alt='Menu Icon' />
                 <div className='flex items-center '>
